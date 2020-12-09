@@ -1,6 +1,6 @@
-#Final Integracion de Aplicaciones
+# Final Integracion de Aplicaciones
 
-##Como funciona?
+## Como funciona?
 
 Esta aplicacion fue hecha para demostrar el funcionamiento del SDK de mercadopago como gateway de pagos.
 Hoy en dia, todo comercio que desea vender sus productos por internet, debe poder ofrecer la mejor experiencia de pago a sus clientes garantizando transparencia en las operaciones.
@@ -13,7 +13,7 @@ Podemos dividir la integracion en dos partes:
 1. Client-Side
 2. Server-Side
 
-#Client-Side
+# Client-Side
 
 Para la integracion Client-Side es necesario instalar MercadoPago.js para hacer llamadas al token de tarjetas y obtener otras funcionalidades en tus integraciones.
 
@@ -47,7 +47,7 @@ Para recibir pagos con tarjeta, debemos capturar los datos de forma segura utili
 ```
 Debemos colocar la `ENV_PUBLIC_KEY` que encontramos en la seccion de Credenciales.
 
-#Server-Side
+# Server-Side
 
 El uso de las SDKs de backend es opcional. Con ellas puedes obtener funcionalidades server-side de nuestras soluciones de cobros online como:
 
@@ -83,7 +83,7 @@ payment.save(MPRequestOptions.builder().setAccessToken(ACCESS_TOKEN).build());
 
 Los campos requeridos a enviar son `token`, `transaction_amount`, `payment_method_id` y el `payer.email`.
 
-##Tarjetas de Prueba
+## Tarjetas de Prueba
 
 Para realizar pagos de prueba (con tus credenciales de TEST), es necesario que utilices [tarjetas de prueba](https://www.mercadopago.com.ar/developers/es/guides/online-payments/checkout-api/testing).
 
