@@ -1,4 +1,4 @@
-# Final Integracion de Aplicaciones
+# Carrito de Compras MercadoPago SDK
 
 ## Como funciona?
 
